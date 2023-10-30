@@ -15,6 +15,7 @@
 		Create basis for the further incremental projects: domain, jpa, services, composition, rest.
 	-->
 
+
 	<properties>
 		<packaging-type>jar</packaging-type>
 		<java.version>17</java.version>
@@ -44,6 +45,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<!-- Project Lombok to simplify Data Beans -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -57,6 +59,7 @@
 			<artifactId>junit-platform-runner</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -74,5 +77,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
