@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="msd.t2_c3.springboot_di" />
+        <module name="invoice_reader" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DAM_App" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="msd.t2_c3.springboot_di" options="-parameters" />
+      <module name="invoice_reader" options="-parameters" />
     </option>
   </component>
 </project>

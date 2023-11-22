@@ -3,11 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.feaa.msd</groupId>
-<<<<<<< HEAD
 	<artifactId>invoice_reader</artifactId>
-=======
-	<artifactId>msd.t2_c3.springboot_di</artifactId>
->>>>>>> 54aa4322bbd1088916bbb0bd8080ad38fc8aad67
 	<version>2023.0-SNAPSHOT</version>
 
 	<!-- Simplify SpringBoot project as a SpringBoot Application
@@ -19,10 +15,6 @@
 		Create basis for the further incremental projects: domain, jpa, services, composition, rest.
 	-->
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 54aa4322bbd1088916bbb0bd8080ad38fc8aad67
 	<properties>
 		<packaging-type>jar</packaging-type>
 		<java.version>17</java.version>
@@ -52,10 +44,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<<<<<<< HEAD
-=======
-
->>>>>>> 54aa4322bbd1088916bbb0bd8080ad38fc8aad67
 		<!-- Project Lombok to simplify Data Beans -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -70,7 +58,6 @@
 			<scope>test</scope>
 		</dependency>
 
-<<<<<<< HEAD
 <!--		pdf box  !!!!!!!!-->
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
@@ -99,9 +86,6 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-=======
-	</dependencies>
->>>>>>> 54aa4322bbd1088916bbb0bd8080ad38fc8aad67
 
 	<build>
 		<plugins>
@@ -119,8 +103,4 @@
 		</plugins>
 	</build>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 54aa4322bbd1088916bbb0bd8080ad38fc8aad67
 </project>

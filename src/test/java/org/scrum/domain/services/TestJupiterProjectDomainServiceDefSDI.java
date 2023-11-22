@@ -15,19 +15,11 @@ public class TestJupiterProjectDomainServiceDefSDI {
 
 	@Autowired
 	private IProjectDomainService service;
-<<<<<<< HEAD
 
 	@Autowired
 	private IProjectEntityRepository repository;
 
 	@Autowired // @Qualifier("projectFactory")
-=======
-	
-	@Autowired
-	private IProjectEntityRepository repository;
-	
-	@Autowired // @Qualifier("projectFactory") 
->>>>>>> 54aa4322bbd1088916bbb0bd8080ad38fc8aad67
 	private IProjectEntityFactory factory;
 
 	@Test
