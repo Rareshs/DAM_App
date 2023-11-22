@@ -10,9 +10,6 @@
         <module name="invoice_reader" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DAM_App" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
